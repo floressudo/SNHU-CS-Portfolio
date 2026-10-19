@@ -1,4 +1,4 @@
-# Southern New Hampshire University (SNHU) — Computer Science Portfolio
+# Southern New Hampshire University (SNHU) - Computer Science Portfolio
 
 Welcome to my portfolio! I'm a Computer Science student at SNHU passionate about building efficient, clean software. Here you'll find a timeline of my growth, the projects I've built, and the practices I've picked up along the way.
 
@@ -26,6 +26,7 @@ This dashboard links directly to each course module, providing quick access to s
 | **CS-230** | Operating Platforms | [⚙️ The Gaming Room Architecture](./CS-230) | System Arch / Linux | Systems Architecture |
 | **CS-250** | Software Development Lifecycle | [🔄 Sprint Review & Retrospective](./CS-250) | Agile / Scrum | Software Engineering & Agile |
 | **CS-255** | System Analysis and Design | [🚗 DriverPass System Design](./CS-255) | UML | Systems Analysis |
+| **CS-300** | Data Structures and Algorithms | [🌳 Course Advising System](./CS-300) | C++ | Data Structures & Algorithms |
 | **CS-305** | Software Security | [🔒 Secure Practices & Verification](./CS-305) | Java / Spring Boot | Software Security |
 | **CS-320** | Software Testing, Automation & QA | [🔬 Testing & QA Artifact](./CS-320) | Java | Software Quality Assurance |
 
@@ -75,13 +76,19 @@ This dashboard links directly to each course module, providing quick access to s
 * **Key Achievements:** Eliminated unencrypted HTTP data transfer by enforcing HTTPS on port 8443, integrated SHA-256 checksum verification to protect financial data integrity, and resolved third-party security vulnerabilities through automated build scans.
 * **Personal Takeaway:** Security has to be integrated into each layer of an application, from build dependencies to transport protocols and endpoint logic. Defense in depth ensures that even if one layer fails, client data remains protected.
 
+### 7. [CS-300: Data Structures and Algorithms](./CS-300)
+* **Project Name:** ABCU Course Advising Assistance Program
+* **Focus:** Binary Search Trees (BST), Algorithm Analysis, Big-O Complexity, Input Validation
+* **Summary:** An algorithm analysis and C++ course advising system for ABCU. Project One analyzed runtime complexity and memory tradeoffs across Vectors, Hash Tables, and BSTs. Project Two implemented a Binary Search Tree to load courses from CSV, validate prerequisites, search course details, and print an alphanumerically sorted catalog using in-order tree traversal.
+* **Key Achievements:** Built a custom Binary Search Tree in C++ with dynamic memory management, implemented two-pass CSV file validation to verify course prerequisites, and eliminated the need for external sorting by leveraging natural tree traversal.
+* **Personal Takeaway:** Data structure selection directly dictates application efficiency and simplicity. Choosing a BST allowed efficient $O(\log n)$ searches while making sorted output natural and immediate, avoiding the extra sorting overhead required by vectors or hash tables.
+
 ---
 
 ## 🗺️ Roadmap for Future Courses
 
 As I advance through the SNHU Computer Science curriculum, new courses will be integrated using this standard structure:
 
-* **CS-300:** *Data Structures and Algorithms* (C++) 
 * **CS-360:** *Mobile Architecture & Programming* (Android/Kotlin)
 * **Senior Capstone:** *(Full-Stack / Portfolio Integration)*
 
@@ -89,5 +96,5 @@ As I advance through the SNHU Computer Science curriculum, new courses will be i
 
 ## 🛠️ Skills & Technologies
 * **Languages:** C++, Python, Java
-* **Methodologies:** Agile Development, Scrum, Sprint Planning, Backlog Prioritization, User Story Mapping, Defensive Design
-* **Tools & Platforms:** Git, GitHub, Visual Studio, macOS, Unix Terminal, Spring Boot, OWASP Dependency-Check, Keytool
+* **Methodologies:** Agile Development, Scrum, Sprint Planning, Backlog Prioritization, User Story Mapping, Defensive Design, Big-O Algorithm Analysis
+* **Tools & Platforms:** Git, GitHub, Visual Studio, macOS, Unix Terminal, Spring Boot, OWASP Dependency-Check, Keytool, CMake
