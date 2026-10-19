@@ -26,6 +26,7 @@ This dashboard links directly to each course module, providing quick access to s
 | **CS-230** | Operating Platforms | [⚙️ The Gaming Room Architecture](./CS-230) | System Arch / Linux | Systems Architecture |
 | **CS-250** | Software Development Lifecycle | [🔄 Sprint Review & Retrospective](./CS-250) | Agile / Scrum | Software Engineering & Agile |
 | **CS-255** | System Analysis and Design | [🚗 DriverPass System Design](./CS-255) | UML | Systems Analysis |
+| **CS-305** | Software Security | [🔒 Secure Practices & Verification](./CS-305) | Java / Spring Boot | Software Security |
 | **CS-320** | Software Testing, Automation & QA | [🔬 Testing & QA Artifact](./CS-320) | Java | Software Quality Assurance |
 
 ---
@@ -67,6 +68,13 @@ This dashboard links directly to each course module, providing quick access to s
 * **Key Achievements:** Wrote meaningful JUnit tests that prove requirements are enforced (null checks, length limits, duplicate ID rejection), and connected test coverage directly to stated requirements rather than just passing assertions.
 * **Personal Takeaway:** Testing must prove required behavior, not just compile and pass. Intentional edge-case testing with invalid inputs produces software that behaves correctly under realistic conditions.
 
+### 6. [CS-305: Software Security](./CS-305)
+* **Project Name:** Artemis Financial Secure Software Practices & Verification
+* **Focus:** Software Security, Cryptographic Hashing (SHA-256), TLS/HTTPS Configuration, Dependency Vulnerability Auditing
+* **Summary:** A security refactoring and vulnerability mitigation project for Artemis Financial. Implemented TLS communications using a PKCS12 keystore, added a SHA-256 data integrity checksum endpoint in Spring Boot, and conducted OWASP Dependency-Check vulnerability assessments.
+* **Key Achievements:** Eliminated unencrypted HTTP data transfer by enforcing HTTPS on port 8443, integrated SHA-256 checksum verification to protect financial data integrity, and resolved third-party security vulnerabilities through automated build scans.
+* **Personal Takeaway:** Security has to be integrated into each layer of an application, from build dependencies to transport protocols and endpoint logic. Defense in depth ensures that even if one layer fails, client data remains protected.
+
 ---
 
 ## 🗺️ Roadmap for Future Courses
@@ -74,7 +82,6 @@ This dashboard links directly to each course module, providing quick access to s
 As I advance through the SNHU Computer Science curriculum, new courses will be integrated using this standard structure:
 
 * **CS-300:** *Data Structures and Algorithms* (C++) 
-* **CS-350:** *Secure Coding* (C++/Java)
 * **CS-360:** *Mobile Architecture & Programming* (Android/Kotlin)
 * **Senior Capstone:** *(Full-Stack / Portfolio Integration)*
 
@@ -82,5 +89,5 @@ As I advance through the SNHU Computer Science curriculum, new courses will be i
 
 ## 🛠️ Skills & Technologies
 * **Languages:** C++, Python, Java
-* **Methodologies:** Agile Development, Scrum, Sprint Planning, Backlog Prioritization, User Story Mapping
-* **Tools & Platforms:** Git, GitHub, Visual Studio, macOS, Unix Terminal
+* **Methodologies:** Agile Development, Scrum, Sprint Planning, Backlog Prioritization, User Story Mapping, Defensive Design
+* **Tools & Platforms:** Git, GitHub, Visual Studio, macOS, Unix Terminal, Spring Boot, OWASP Dependency-Check, Keytool

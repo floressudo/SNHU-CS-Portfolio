@@ -35,3 +35,15 @@ x88/
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
+
+# Java and Maven Artifacts
+target/
+*.class
+*.jar
+*.war
+*.ear
+.idea/
+*.iml
+.settings/
+.classpath
+.project
