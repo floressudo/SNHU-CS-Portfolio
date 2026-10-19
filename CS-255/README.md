@@ -1,6 +1,9 @@
 # CS-255: System Analysis and Design
+Project System Design Document - DriverPass
 
-This repository contains the system design documentation for **DriverPass**, a project completed for my CS-255 System Analysis and Design course. Below is a reflection on the design process, the creation of UML diagrams, and my growth in software architecture.
+## Project Summary
+
+For this project, I developed a system design document for DriverPass, a driving school that needed a modern scheduling web application. The project required analyzing client requirements, designing role-based access controls, modeling system workflows with UML diagrams, and establishing database structures to handle scheduling without conflicts.
 
 ## 📝 Project Reflection
 

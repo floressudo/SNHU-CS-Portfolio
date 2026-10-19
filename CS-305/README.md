@@ -1,6 +1,9 @@
-# CS 305 Portfolio Submission
+# CS-305: Software Security
+Project Practices for Secure Software - Artemis Financial
 
-This repository contains selected artifacts from my work in CS 305 Software Security. It includes the completed practices for secure software report from Project Two, the refactored Spring Boot secure server codebase, and this README reflection answering the module journal questions about vulnerability assessments, secure coding practices, and client needs.
+## Project Summary
+
+For this project, I conducted a vulnerability assessment and completed security refactoring for Artemis Financial, a financial consulting company. The course required auditing an existing RESTful web application using OWASP Dependency-Check, establishing secure communications by configuring TLS and HTTPS on port 8443 with a PKCS12 keystore, and implementing data integrity verification using Java's MessageDigest with SHA-256 to create a secure checksum endpoint.
 
 ## Reflection
 

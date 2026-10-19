@@ -1,6 +1,9 @@
-# CS-230: Operating Platforms - Software Design Document
+# CS-230: Operating Platforms
+Project Software Design Document - The Gaming Room
 
-This repository contains the software design document for **The Gaming Room**, a project completed as part of my CS-230 Operating Platforms course. Below is a reflection on the design process, the architectural decisions made, and my growth as a developer during this project.
+## Project Summary
+
+For this project, I created a software design document for The Gaming Room to transition their game, Draw It or Lose It, from an Android-only application to a cross-platform web application running in a Linux server environment. The project required evaluating operating platform characteristics, designing domain models with UML diagrams, and addressing system architecture, security, and storage considerations.
 
 ## 📝 Project Reflection
 

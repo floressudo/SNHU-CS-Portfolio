@@ -1,6 +1,9 @@
-# CS 320 Portfolio Submission
+# CS-320: Software Testing, Automation and Quality Assurance
+Project Contact Service and QA Reflection
 
-This repository contains selected artifacts from my work in CS 320 Software Test, Automation, and Quality Assurance. It includes the contact service files from Project One, the summary and reflections report from Project Two, and this README reflection on what I learned about software testing, requirements, and software design.
+## Project Summary
+
+For this course, I developed and tested an in-memory contact management service in Java for Project One, and completed a software testing summary and reflection report for Project Two. The coursework required writing unit tests with JUnit to validate requirements, testing edge cases and boundary values, and applying defensive design to ensure objects and services reject invalid or duplicate records.
 
 ## Reflection
 
